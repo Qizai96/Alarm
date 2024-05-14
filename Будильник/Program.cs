@@ -42,7 +42,7 @@ class AlarmClock
                 // Проверяем, совпадает ли текущее время с установленным будильником
                 if (currentHours == hours && currentMinutes == minutes && currentSeconds == seconds)
                 {
-                    Console.WriteLine("\nВремя прозвенеть! Ура!");
+                    Console.WriteLine("\nВремя прозвенеть!");
                     // Звуковой сигнал будильника
                     Console.Beep(1000, 2000); // Частота и длительность звука
 
